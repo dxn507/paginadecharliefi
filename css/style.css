@@ -141,11 +141,13 @@ a.contacto,
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 25px;
 }
 
 .nos-servicios_card{
-  width: 22%;
+  min-width: 22%;
+  max-width: 90%;
   height: auto;
   border-radius: 15px;
   overflow: hidden;
