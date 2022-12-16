@@ -440,6 +440,9 @@ form > input{
   width: 100%;
    min-height: 180px;
 }
+  .nos-servicios_card{
+      width: 95%;
+	}	
   .blog-contenedor{
   width: 100%;
   height: auto;
@@ -488,10 +491,9 @@ form > input{
   gap:0.5rem;
 }
  
-.gallery_card{
-  width: 45%;
-  height: auto;
-}
+ .nos-servicios_card{
+  max-width: 95%;
+	}	
   .blog-contenedor{
     flex-direction: row;
     flex-wrap: wrap;
@@ -500,6 +502,7 @@ form > input{
     flex-wrap: nowrap;
     width: 48%;
   }
+
   /*footer*/
   .pie_contenedor{
     display: flex;
