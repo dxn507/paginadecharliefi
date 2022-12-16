@@ -427,6 +427,7 @@ form > input{
 	
 }
 /*Consulta de medios*/
+
 @media(max-width: 768px){
   .gallery_container{
     width: 90%;
@@ -440,9 +441,15 @@ form > input{
   width: 100%;
    min-height: 180px;
 }
+  .nos-servicios{
+    flex-direction: column;
+    
+  }
   .nos-servicios_card{
-      width: 95%;
-	}	
+  width: 92%;
+  height: auto;
+  margin-bottom:30px;
+}
   .blog-contenedor{
   width: 100%;
   height: auto;
@@ -481,7 +488,16 @@ form > input{
   
 
 }
+
 @media(min-width: 769px) and (max-width:992px){
+  .nos-servicios{
+    flex-wrap: wrap;
+  }
+    .nos-servicios_card{
+  width:45%;
+  height: auto;
+  margin-bottom:30px;
+}
   .gallery_container{
     width: 100%;
     margin: auto;
@@ -491,9 +507,10 @@ form > input{
   gap:0.5rem;
 }
  
- .nos-servicios_card{
-  max-width: 95%;
-	}	
+.gallery_card{
+  width: 45%;
+  height: auto;
+}
   .blog-contenedor{
     flex-direction: row;
     flex-wrap: wrap;
@@ -502,7 +519,6 @@ form > input{
     flex-wrap: nowrap;
     width: 48%;
   }
-
   /*footer*/
   .pie_contenedor{
     display: flex;
